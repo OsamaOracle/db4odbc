@@ -1,0 +1,13 @@
+#
+#HS init parameters
+#
+HS_FDS_CONNECT_INFO= <DSN-NAME-IN-ODBC.INI>
+HS_FDS_TRACE_LEVEL= <On,Off,Debug> 
+HS_FDS_SHAREABLE_NAME= /usr/local/unixODBC/lib/libodbc.so
+HS_FDS_SUPPORT_STATISTICS= FALSE
+HS_LANGUAGE=AMERICAN_AMERICA.WE8ISO8859P1
+#HS_NLS_DATE_FORMAT=YYYY-MM-DD
+#
+# ODBC specific environment variables
+#
+set ODBCINI=/usr/local/unixODBC/etc/odbc.ini
